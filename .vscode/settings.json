@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "/home/ukiyo/anaconda3/bin/python"
+    "python.pythonPath": "/home/ukiyo/anaconda3/bin/python",
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
 }
